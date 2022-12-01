@@ -33,7 +33,7 @@ app.get("/", (req, res) =>{
 // CREATE
 app.post("/messages", (req, res) =>
  Post
-   .create({ title: "Great article", author: "me", body: "lorem ipsum" })
+   .create({ title: "Old Title", author: "me", body: "lorem ipsum" })
    .then((newMessage) => {
      res.send(newMessage);
    })
